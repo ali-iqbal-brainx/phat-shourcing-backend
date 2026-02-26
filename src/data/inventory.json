@@ -1,0 +1,82 @@
+[
+  {
+    "id": "prod-1",
+    "name": "Angular Comfort Function Chair",
+    "category": "Chair",
+    "dimensions": {
+      "width": 60,
+      "depth": 65,
+      "height": 110
+    },
+    "material": "Mesh",
+    "color": "Black",
+    "basePrice": 200,
+    "currency": "USD",
+    "availableStock": 25,
+    "image": "assets/images/chair.png"
+  },
+  {
+    "id": "prod-2",
+    "name": "Outdoor Lounge",
+    "category": "Lounge",
+    "dimensions": {
+      "width": 500,
+      "depth": 200,
+      "height": 100
+    },
+    "material": "Wood",
+    "color": "Brown",
+    "basePrice": 800,
+    "currency": "USD",
+    "availableStock": 100,
+    "image": "assets/images/lounge.jpg"
+  },
+  {
+    "id": "prod-3",
+    "name": "Outdoor Dining Table",
+    "category": "Table",
+    "dimensions": {
+      "width": 300,
+      "depth": 120,
+      "height": 75
+    },
+    "material": "Engineered Wood",
+    "color": "Oak",
+    "basePrice": 1200,
+    "currency": "USD",
+    "availableStock": 10,
+    "image": "assets/images/table.jpg"
+  },
+  {
+    "id": "prod-4",
+    "name": "Decorative Floor Light",
+    "category": "Light",
+    "dimensions": {
+      "width": 100,
+      "depth": 100,
+      "height": 100
+    },
+    "material": "Stainless Steel",
+    "color": "Silver",
+    "basePrice": 100,
+    "currency": "USD",
+    "availableStock": 40,
+    "image": "assets/images/light.jpg"
+  },
+  {
+    "id": "prod-5",
+    "name": "Custom Bar",
+    "category": "Bar",
+    "dimensions": {
+      "width": 200,
+      "depth": 100,
+      "height": 120
+    },
+    "material": "Wood",
+    "color": "Brown",
+    "basePrice": 500,
+    "currency": "USD",
+    "availableStock": 15,
+    "image": "assets/images/bar.jpg"
+  }
+]

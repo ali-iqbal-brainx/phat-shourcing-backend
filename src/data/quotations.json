@@ -1,0 +1,100 @@
+[
+  {
+    "id": "8b755e74-f473-4e9a-9415-f9e9fa09af83",
+    "status": "PENDING_REVIEW",
+    "items": [
+      {
+        "productId": "prod-1",
+        "name": "Angular Comfort Function Chair",
+        "quantity": 1,
+        "unitPrice": 200,
+        "totalPrice": 200,
+        "dimensions": "60x65x110 cm",
+        "image": "http://localhost:4000/assets/images/chair.png",
+        "status": "AVAILABLE"
+      },
+      {
+        "productId": "prod-4",
+        "name": "Decorative Floor Light",
+        "quantity": 1,
+        "unitPrice": 100,
+        "totalPrice": 100,
+        "dimensions": "100x100x100 cm",
+        "image": "http://localhost:4000/assets/images/light.jpg",
+        "status": "AVAILABLE"
+      },
+      {
+        "productId": "prod-3",
+        "name": "Outdoor Dining Table",
+        "quantity": 1,
+        "unitPrice": 1200,
+        "totalPrice": 1200,
+        "dimensions": "300x120x75 cm",
+        "image": "http://localhost:4000/assets/images/table.jpg",
+        "status": "AVAILABLE"
+      },
+      {
+        "productId": "prod-5",
+        "name": "Custom Bar",
+        "quantity": 1,
+        "unitPrice": 500,
+        "totalPrice": 500,
+        "dimensions": "200x100x120 cm",
+        "image": "http://localhost:4000/assets/images/bar.jpg",
+        "status": "AVAILABLE"
+      }
+    ],
+    "totalAmount": 2000,
+    "createdAt": "2026-02-26T14:26:56.664Z",
+    "updatedAt": "2026-02-26T14:26:56.664Z"
+  },
+  {
+    "id": "86e5ede2-bf69-4bc9-ae95-e4dd2cef35cd",
+    "status": "APPROVED",
+    "items": [
+      {
+        "productId": "prod-3",
+        "name": "Outdoor Dining Table",
+        "quantity": 1,
+        "unitPrice": 1200,
+        "totalPrice": 1200,
+        "dimensions": "300x120x75 cm",
+        "image": "http://localhost:4000/assets/images/table.jpg",
+        "status": "AVAILABLE"
+      }
+    ],
+    "totalAmount": 1200,
+    "createdAt": "2026-02-26T14:27:50.706Z",
+    "updatedAt": "2026-02-26T14:28:04.603Z"
+  },
+  {
+    "id": "a7362935-9d29-4be9-9c0e-0a8f2abb18fb",
+    "status": "REJECTED",
+    "items": [
+      {
+        "name": "office table",
+        "quantity": 1,
+        "dimensions": "10x20x10 cm",
+        "status": "NOT_IN_INVENTORY"
+      }
+    ],
+    "totalAmount": 0,
+    "createdAt": "2026-02-26T14:28:39.490Z",
+    "updatedAt": "2026-02-26T14:28:47.636Z"
+  },
+  {
+    "id": "86ad0ada-577a-40a2-8386-d4c53e6fbb4d",
+    "status": "PENDING_REVIEW",
+    "items": [
+      {
+        "name": "baseball bat",
+        "quantity": 1,
+        "dimensions": "N/A",
+        "status": "NOT_IN_INVENTORY"
+      }
+    ],
+    "totalAmount": 0,
+    "createdAt": "2026-02-26T14:29:00.890Z",
+    "updatedAt": "2026-02-26T14:29:00.890Z"
+  }
+]
