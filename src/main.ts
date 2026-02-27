@@ -14,6 +14,9 @@ async function bootstrap() {
     allowedHeaders: ['Content-Type', 'Authorization'],
   });
 
+  // Global API prefix – all routes become /api/v1/...
+  app.setGlobalPrefix('api/v1');
+
   // Serve static assets (product images) from src/assets
   app.useStaticAssets(path.join(process.cwd(), 'src', 'assets'), {
     prefix: '/assets',
