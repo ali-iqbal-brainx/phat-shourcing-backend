@@ -54,7 +54,7 @@ export class QuotationService {
 
       if (inventoryItem) {
         const totalPrice = extracted.quantity * inventoryItem.basePrice;
-        const apiBase = `http://localhost:${process.env.PORT ?? 4000}`;
+        const apiBase = process.env.APP_URL ?? `http://localhost:${process.env.PORT ?? 4000}`;
         // Always build dimensions from the inventory record
         const { width, depth, height } = inventoryItem.dimensions;
         const dimensions = `${width}x${depth}x${height} cm`;
